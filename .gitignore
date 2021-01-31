@@ -1,3 +1,4 @@
+.history
 /vendor/
 node_modules/
 npm-debug.log
@@ -15,9 +16,15 @@ public/hot
 public_html/storage
 public_html/hot
 
-storage/*.key
+/storage/*.key
 .env
+.env.backup
+
 Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+docker-compose.override.yml
+
+
