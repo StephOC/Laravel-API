@@ -1,7 +1,6 @@
 # Laravel & VueJS
 Learning Laravel VueJS
-
-[theWhiteFox.ninja Laravel API](https://thewhitefox.ninja/2020/2021-01-31-laravel-api)
+[theWhiteFox.ninja Laravel API](https://www.thewhitefox.ninja/2021/2021-01-31-laravel-api/)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 

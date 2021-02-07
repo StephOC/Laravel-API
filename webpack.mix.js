@@ -11,7 +11,23 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix
+    .js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/assets/css')
+    .options({
+        processCssUrls: false
+    })
+    .browserSync({
+        proxy: 'localhost:8000',
+        logLevel: 'debug',
+        logPrefix: "GDC-orion",
+        files: [
+            'public/assets/css/**/*.css',
+            './resources/views/**/*.blade.php',
+            './resources/sass/**/*.scss',
+            './resources/js/**/*.js',
+            './resources/js/**/*.vue'
+        ],
+        browser: ["chrome"]
+    });
+
