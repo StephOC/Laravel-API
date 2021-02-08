@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Article;
 use Illuminate\Database\Seeder;
 
 class ArticlesTableSeeder extends Seeder
@@ -13,7 +14,7 @@ class ArticlesTableSeeder extends Seeder
      */
     public function run()
     {
-        // lets: truncate our existing records to start from scratch
+        // lets truncate our existing records to start from scratch
         Article::truncate();
 
         $faker = \Faker\Factory::create();
