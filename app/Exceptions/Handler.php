@@ -26,6 +26,18 @@ class Handler extends ExceptionHandler
         'password_confirmation',
     ];
 
+
+    public function render($request, Exeception $exception)  {
+        // replace 404  with a json response
+        if ($exception instanceof ModelNotFoundException) {
+            return response()->json([
+                'error' => 'Resources not found'
+            ], 404);
+        }
+
+        return parent::render($request, $exception);
+    }
+
     /**
      * Register the exception handling callbacks for the application.
      *
@@ -33,6 +45,12 @@ class Handler extends ExceptionHandler
      */
     public function register()
     {
+        $this->renderable(function(InvalidOrderException $e, $request) {
+               return response()->json([
+                'error' => 'resource not found'
+            ], 404);
+        });
+
         $this->reportable(function (Throwable $e) {
             //
         });
