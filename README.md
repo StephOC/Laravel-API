@@ -15,13 +15,13 @@ Then install, migrate, seed:
     composer install
     php artisan migrate
     php artisan db:seed
+    php artisan serve
 
 and as this is Laravel 8 authentication is installed using:
 
     composer require laravel/ui
     php artisan ui vue
     php artisan ui bootstrap --auth
-    php artisan serve
 
 Read more here
 [https://laravel.com/docs/8.x/authentication](https://laravel.com/docs/8.x/authentication)
