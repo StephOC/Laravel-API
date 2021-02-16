@@ -23,7 +23,9 @@ and as this is Laravel 8 authentication is installed using:
     php artisan ui vue
     php artisan ui bootstrap --auth
 
-REad more here
+Read more here
 [https://laravel.com/docs/8.x/authentication](https://laravel.com/docs/8.x/authentication)
 
-The API will be running on localhost:8000.
+The API will be running on [localhost:8000/register](localhost:8000/register)
+
+![](https://www.thewhitefox.ninja/static/bea310d577a2677c14e6f8a0d1931f7f/8711f/register.png)
