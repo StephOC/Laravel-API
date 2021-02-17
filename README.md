@@ -1,6 +1,5 @@
 # Laravel API
 Part of my bloggin series Learning Laravel & VueJS
-You can follow the tutorial online at [theWhiteFox.ninja Laravel API](https://www.thewhitefox.ninja/2021/2021-01-31-laravel-api/)
 
 Running the API
 
