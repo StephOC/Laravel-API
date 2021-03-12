@@ -1,5 +1,5 @@
 # Laravel API
-On my blog https://www.thewhitefox.ninja/ part of my learning experience Laravel & VueJS
+On my blog [thewhitefox.ninja](https://www.thewhitefox.ninja/) part of my learning experience Laravel & VueJS
 
 Running the API
 
