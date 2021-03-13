@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
@@ -14,7 +15,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         // first clear the users table 
-        Users::truncate();
+        User::truncate();
 
         $faker = \Faker\Factory::create();
 
@@ -31,11 +32,11 @@ class UsersTableSeeder extends Seeder
         ]);
 
         // generate users
-        for($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             User::create([
                 'name' => $faker->name,
                 'email' => $faker->email,
-                'apssword' => $pasword
+                'password' => $password
             ]);
         }
     }
