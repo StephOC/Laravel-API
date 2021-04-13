@@ -1,5 +1,5 @@
 # Laravel API
-On my blog [thewhitefox.ninja](https://www.thewhitefox.ninja/) part of my learning experience Laravel & VueJS
+On my blog [thewhitefox.ninja](https://www.thewhitefox.ninja/) part of my learning Laravel & VueJS
 
 Running the API
 
@@ -20,7 +20,7 @@ The API will be running on [localhost:8000/register](localhost:8000/register)
 
 ![](https://www.thewhitefox.ninja/static/bea310d577a2677c14e6f8a0d1931f7f/8711f/register.png)
 
-and as this is Laravel 8 authentication is installed using:
+8 authentication run:
 
     composer require laravel/ui
     php artisan ui vue
